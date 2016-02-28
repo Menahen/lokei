@@ -11,4 +11,9 @@ public class HelloController {
 	public String test(){
 		return "ola";
 	}
+	
+	@RequestMapping("/ola2")
+	public String test2(){
+		return "ola";
+	}
 }
