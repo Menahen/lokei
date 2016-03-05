@@ -1,0 +1,84 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: GillSans, Calibri, Trebuchet, sans-serif;
+	/*background-image: url('../images/backr.jpg');*/
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.painel-login {
+	width: 30%;
+	height: 50%;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	background-color:white;
+	-webkit-border-radius: 8px;
+	 min-width: 300px;
+}
+
+
+.painel-titulo {
+	width: 100%;
+	background-color: #0d47a1;
+		text-align: center;
+		-webkit-border-radius: 4px;
+}
+
+.linha-preta {
+	background-color: black;
+	height: 0.5px;
+	width: 100%;
+}
+
+.painel-conteudo {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	padding: 1px;
+}
+
+.lblPainelTitulo {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: x-large;
+	color: white;
+}
+
+.arredondar
+{
+	border-radius: 5px !important;
+}
+
+.espacamento2
+{
+	margin-right: 2% !important;
+}
+
+.tamanho-medio
+{
+	width:35% !important;
+	height: 100% !important;
+}
+
+.margin-inferior
+{
+	margin-bottom: 1% !important;
+}
+
+.margin-topo
+{
+	margin-top: 1% !important;
+}
+
+
+/*Overrides do materialize*/
+
+[type="checkbox"].filled-in:checked+label:after {
+	background-color: #1565c0 !important;
+	border-color: #1565c0 !important;
+	}

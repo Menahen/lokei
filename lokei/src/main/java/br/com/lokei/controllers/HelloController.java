@@ -9,11 +9,12 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String test(){
-		return "ola";
+		return "Login";
 	}
 	
-	@RequestMapping("/ola2")
+	@RequestMapping("/cadastrarusuario")
 	public String test2(){
-		return "ola";
+		return "CadastrarUsuario";
 	}
+	
 }
