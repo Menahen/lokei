@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+
+.filtros
+{
+	float: left;
+	margin-left:2%;
+	min-width: 300px;
+	margin-top: 5%;
+	width: 20%;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	heigth: 80%;
+}
+
+.descer
+{
+	margin-top: 10% !important;
+}

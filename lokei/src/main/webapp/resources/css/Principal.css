@@ -1,0 +1,83 @@
+@CHARSET "ISO-8859-1";
+
+.img-anuncio {
+	float: left;
+	width: 30%;
+}
+
+.anuncios {
+	float: left;
+	margin-top: 0.5%;
+	width: 60%;
+	margin-left: 2%;
+	border-style: solid !important;
+	border: 1px;
+	border-color: #e0e0e0;
+	padding: 5px;
+}
+
+.anuncio {
+	float: left;
+	width: 100%;
+	margin-bottom: 1%;
+	border-style: solid !important;
+	border: 1px;
+	border-color: #e0e0e0;
+	display: table;
+}
+
+.titulo-anuncio {
+	font-size: x-large;
+	font-weight: bolder;
+}
+
+.descricao-anuncio {
+	margin-left: 16%;
+	width: 50%;
+	float: left;
+	height: 100%;
+	display: table-cell;
+}
+
+.preco-anuncio {
+	float: right;
+	border-style: solid !important;
+	border: 1px;
+	border-color: #e0e0e0;
+	width: 20%;
+	padding: 10px;
+	margin-top: 0%;
+}
+
+.anuncio-informacoes {
+	float: left;
+	width: 80%;
+}
+
+.anuncio-acoes {
+	float: left;
+	border: 1px;
+	border-color: #e0e0e0;
+	border-style: solid !important;
+	width: 20%;
+	display: table-cell;
+}
+
+.bordas {
+	border-style: solid !important;
+	border: 1px;
+	border-color: #e0e0e0;
+	padding: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.ajustar-tamanho
+{
+	width: 100%;
+	height: 200px;
+}
+
+.sem-margem
+{
+	margin-bottom: 0px !important;
+}

@@ -17,4 +17,9 @@ public class HelloController {
 		return "CadastrarUsuario";
 	}
 	
+	@RequestMapping("/home")
+	public String test3(){
+		return "Home";
+	}
+	
 }
