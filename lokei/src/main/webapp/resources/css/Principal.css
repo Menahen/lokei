@@ -10,25 +10,40 @@
 	margin-top: 0.5%;
 	width: 60%;
 	margin-left: 2%;
-	border-style: solid !important;
-	border: 1px;
-	border-color: #e0e0e0;
 	padding: 5px;
+	margin-top: 5%;
+	min-width: 800px;
 }
 
-.anuncio {
-	float: left;
-	width: 100%;
-	margin-bottom: 1%;
-	border-style: solid !important;
-	border: 1px;
-	border-color: #e0e0e0;
-	display: table;
+@media screen and (max-width: 1170px) {
+	.anuncios {
+		float: left;
+		margin-top: 0.5%;
+		width: 60%;
+		margin-left: 2%;
+		padding: 5px;
+		margin-top: 5%;
+		width: 100%;
+	}
+	.anuncio {
+		width: 80%;
+		height: 100px;
+	}
+}
+
+.anuncio{
+	
 }
 
 .titulo-anuncio {
+	width: 100%;
+	position: relative;
+}
+
+.titulo {
 	font-size: x-large;
 	font-weight: bolder;
+	color: black;
 }
 
 .descricao-anuncio {
@@ -71,13 +86,144 @@
 	margin-bottom: 0px !important;
 }
 
-.ajustar-tamanho
-{
+.ajustar-tamanho {
 	width: 100%;
 	height: 200px;
 }
 
-.sem-margem
-{
+.sem-margem {
 	margin-bottom: 0px !important;
+}
+
+.anuncio-info {
+	height: 200px;
+	float: left;
+	position: relative;
+	width: 65%;
+}
+
+.imagem-anuncio {
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.anuncio-descricao {
+	postion: relative;
+	font-style: italic;
+}
+
+.anuncio-conteudo {
+	height: 200px;
+	padding: 5px !important;
+}
+
+li {
+	margin-bottom: 3%;
+}
+
+.anuncio-preco {
+	position: relative;
+	height: 200px;
+	float: right;
+	width: 33%;
+	text-align: center;
+}
+
+.ver-anuncio {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-color: #43a047;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+}
+
+.ver-anuncio:hover {
+	background-color: #4caf50;
+	cursor: pointer;
+}
+
+.texto-preco {
+	font-size: x-large;
+	font-weight: bolder;
+	color: #009688;
+}
+
+.conteudo-preco-anuncio {
+	font-size: x-large;
+	font-weight: bolder;
+	color: white;
+	cursor: pointer;
+}
+
+.preco {
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15%;
+}
+
+.avaliacao-anunciante {
+	position: absolute;
+	bottom: 0px;
+	left: 1%;
+	text-align: center;
+	height: 33px;
+}
+
+.semana-ativado {
+	color: #1e88e5;
+}
+
+.anuncio-semana {
+	width: 100%;
+	text-align: center;
+	font-size: x-large;
+}
+
+.anuncio-descricao-reduzida {
+	height: 122px;
+}
+
+.texto-avaliacao {
+	font-size: large;
+	color: black;
+	font-weight: bold;
+}
+
+.imagem-avaliacao {
+	width: 20%;
+	height: 22px;
+	position: relative;
+	top: 12%;
+	margin-right: 5%;
+}
+
+.fila-anuncio {
+	float: right;
+}
+
+.imagem-fila {
+	width: 35%;
+	height: 26px;
+	position: relative;
+	top: 1%;
+	margin-top: 3%;
+}
+
+.bordas-com-top {
+	border-style: solid !important;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 1px;
+	border-color: #e0e0e0;
+	padding: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.anuncio-informacoes-extra {
+	
 }

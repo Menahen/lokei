@@ -22,4 +22,9 @@ public class HelloController {
 		return "Home";
 	}
 	
+	@RequestMapping("/empresa")
+	public String test4(){
+		return "Empresa";
+	}
+	
 }

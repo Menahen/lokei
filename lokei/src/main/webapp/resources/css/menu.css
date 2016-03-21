@@ -1,19 +1,32 @@
 @CHARSET "ISO-8859-1";
 
-.filtros
-{
+.filtros {
 	float: left;
-	margin-left:2%;
+	margin-left: 2%;
 	min-width: 300px;
 	margin-top: 5%;
 	width: 20%;
 	border: 1px;
-	border-color: black;
+	border-color: #e0e0e0;
 	border-style: solid;
 	heigth: 80%;
 }
 
-.descer
-{
+.descer {
 	margin-top: 10% !important;
+}
+
+.tabs .indicator {
+	background-color: #0d47a1 !important;
+}
+
+.esconder-filtros {
+	
+}
+
+@media screen and (max-width: 1170px) {
+	.esconder-filtros {
+		visibility: hidden;
+		display:none;
+	}
 }

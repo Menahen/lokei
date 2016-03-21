@@ -2,9 +2,10 @@
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
-<link href="<c:url value="/resources/css/navbar.css" />" rel="stylesheet">
+<link href="<c:url value="/resources/css/navbar.css" />"
+	rel="stylesheet">
 <nav>
-	<div class="nav-wrapper blue darken-4">
+	<div class="nav-wrapper  indigo darken-3">
 		<a href="#!" class="brand-logo center">Lokei</a> <a href="#"
 			data-activates="mobile-demo" class="button-collapse"><i
 			class="material-icons">menu</i></a>

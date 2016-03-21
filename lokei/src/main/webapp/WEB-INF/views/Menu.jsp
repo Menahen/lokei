@@ -1,12 +1,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <link href="<c:url value="/resources/css/menu.css" />" rel="stylesheet">
-<div class="filtros">
+<div class="filtros esconder-filtros">
 	<div class="row">
 		<div class="col s12">
 			<ul class="tabs">
-				<li class="tab col s3"><a class="active" href="#filtros">Filtros</a></li>
-				<li class="tab col s3"><a href="#test4">Filtros extras</a></li>
+				<li class="tab col s3"><a class="active blue-text text-darken-4" href="#filtros">Filtros</a></li>
+				<li class="tab col s3"><a class="blue-text text-darken-4" href="#test4">Filtros extras</a></li>
 			</ul>
 		</div>
 		<div id="filtros" class="col s12 descer">
