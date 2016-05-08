@@ -15,6 +15,18 @@
 		<put-attribute name="scriptjs" value="/WEB-INF/views/Scripts.jsp"></put-attribute>
 	</definition>
 	
+	<definition name="simple.definition" template="/WEB-INF/views/Layout.jsp">
+		<put-attribute name="title"
+			value="Lokei"></put-attribute>
+		<put-attribute name="stylecss" value="" ></put-attribute>
+		<put-attribute name="menu" value=""></put-attribute>
+		<put-attribute name="topbody" value=""></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/Header.jsp"></put-attribute>
+		<put-attribute name="body" value=""></put-attribute>
+		<put-attribute name="footer" value=""></put-attribute>
+		<put-attribute name="scriptjs" value=""></put-attribute>
+	</definition>
+	
 	<!-- Home Page -->
     <definition name="Home" extends="base.definition">  
         <put-attribute name="title" value="Home Page" />  
@@ -32,7 +44,43 @@
     <!-- Login -->
     <definition name="Login" template="/WEB-INF/views/Vazio.jsp">  
         <put-attribute name="title" value="Login" />  
+        <put-attribute name="header" value=""></put-attribute>
         <put-attribute name="body" value="/WEB-INF/views/Login.jsp" />  
     </definition>  
+    
+     <!-- Login Novo -->
+    <definition name="LoginReal" template="/WEB-INF/views/Vazio.jsp">  
+        <put-attribute name="title" value="Login real" />  
+        <put-attribute name="header" value=""></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/LoginReal.jsp" />  
+    </definition>
+    
+     <!-- Dashboard -->
+    <definition name="Dash" template="/WEB-INF/views/Vazio.jsp">  
+        <put-attribute name="title" value="Dash" />  
+    	<put-attribute name="header" value="/WEB-INF/views/Header.jsp"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/dashboard.jsp" />  
+    </definition>    
+    
+     <!-- Cadastro da empresa -->
+    <definition name="CadastroEmpresa" extends="base.definition">  
+        <put-attribute name="title" value="Cadastro Empresa" />  
+        <put-attribute name="body" value="/WEB-INF/views/CadastroEmpresa.jsp" />  
+         <put-attribute name="menu" value="" />
+    </definition>    
+    
+      <!-- Cadastro de estabelecimento -->
+    <definition name="CadastroEstabelecimento" extends="base.definition">  
+        <put-attribute name="title" value="Cadastro Estabelecimento" />  
+        <put-attribute name="body" value="/WEB-INF/views/CadastroEstabelecimento.jsp" />  
+         <put-attribute name="menu" value="" />
+    </definition>    
+    
+      <!-- Cadastro de anuncio -->
+    <definition name="CadastroAnuncio" extends="base.definition">  
+        <put-attribute name="title" value="Cadastro Anuncio" />  
+        <put-attribute name="body" value="/WEB-INF/views/CadastroAnuncio.jsp" />  
+         <put-attribute name="menu" value="" />
+    </definition>    
     
 </tiles-definitions>

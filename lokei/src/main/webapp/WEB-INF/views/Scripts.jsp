@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <script type="text/javascript"
 	src="<c:url value="/resources/scripts/jquery-2.2.1.js" />"></script>
+	<script type="text/javascript"
+	src="<c:url value="/resources/scripts/jquery.mask.js" />"></script>
 <script type="text/javascript"
 	src="<c:url value="/resources/scripts/materialize.min.js" />"></script>
 <script type="text/javascript">
@@ -36,5 +38,11 @@
 		// A setting that changes the collapsible behavior to expandable instead of the default accordion style
 		});
 	});
+	
+	$(document).ready(function(){
+	    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+	    $('.modal-trigger').leanModal();
+	  });
+	          
 
 </script>

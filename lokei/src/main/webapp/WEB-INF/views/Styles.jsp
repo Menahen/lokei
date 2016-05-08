@@ -8,6 +8,8 @@
 	rel="stylesheet">
 <link type="text/css" rel="stylesheet"
 	href="<c:url value="/resources/css/materialize.min.css" />" />
+<link type="text/css" rel="stylesheet"
+	href="<c:url value="/resources/css/hover-min.css" />" />
 </head>
 </html>
 
